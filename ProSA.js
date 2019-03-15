@@ -165,6 +165,9 @@ $(function () {
         if (inputname == "") {
             console.log("blank");
             inputname = "[ไม่ระบุชื่อ]";
+        }else if(inputname == "<!--"){
+            alert("ฮันแน่!!");
+            location.reload();
         }
         console.log('Start')
         console.log(inputname);
