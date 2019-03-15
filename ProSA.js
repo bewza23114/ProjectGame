@@ -125,7 +125,11 @@ $(function () {
         console.log(n3);
         $("#answer").append("<font size='5'>เลขที่คุณ" + "<font color='green'>"+inputname +"</font>"+ "เลือกคือ </font>" + '<font size="6" color="#FF3366"><b>' + n3[8] + '</b></font>');
     }
-
+    function image(){
+        console.log("image");
+        $("#imgshow").show();
+    }
+    
     $("#dis2").hide();
     $("#distable1").hide();
     $("#distable2").hide();
@@ -159,7 +163,8 @@ $(function () {
     $("#dis22").hide();//nothave9
     $("#dis23").hide();//again
     $("#answer").hide();
-
+    $("#imgshow").hide();
+    
     $("#Start").click(function () {
         inputname = $("#inputname").val();
         if (inputname == "") {
@@ -400,6 +405,7 @@ $(function () {
                     $("#Nothave9").click(function () {//ไม่9
                         console.log("nothave9");
                         alert("ต้องมีแล้วแหละ");
+                        image();
                     });
                 });
             });
