@@ -170,7 +170,7 @@ $(function () {
         if (inputname == "") {
             console.log("blank");
             inputname = "[ไม่ระบุชื่อ]";
-        }else if(inputname == "<!--"){
+        }else if(inputname.charAt(0) == "<"){
             alert("ฮันแน่!!");
             location.reload();
         }
