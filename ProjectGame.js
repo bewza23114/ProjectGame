@@ -170,11 +170,11 @@ $(function () {
         if (inputname == "") {
             console.log("blank");
             inputname = "[ไม่ระบุชื่อ]";
-        } else if (inputname.charAt(0) == "<"||inputname.charAt(1) == "<"||inputname.charAt(2) == "<"||inputname.charAt(3) == "<"||inputname.charAt(4) == "<"||inputname.charAt(5) == "<"
-        ||inputname.charAt(6) == "<"||inputname.charAt(7) == "<"||inputname.charAt(8) == "<"||inputname.charAt(9) == "<") {
+        } else if (inputname.charAt(0) == "<" || inputname.charAt(1) == "<" || inputname.charAt(2) == "<" || inputname.charAt(3) == "<" || inputname.charAt(4) == "<" || inputname.charAt(5) == "<"
+            || inputname.charAt(6) == "<" || inputname.charAt(7) == "<" || inputname.charAt(8) == "<" || inputname.charAt(9) == "<") {
             alert("ฮันแน่!!");
             location.reload();
-        } else if(inputname.length > 10){
+        } else if (inputname.length > 10) {
             console.log("length")
             alert("กรอกชื่อเล่นก็พอ");
             location.reload();
