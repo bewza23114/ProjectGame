@@ -1,0 +1,100 @@
+.center{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+}
+.display{
+    display: none;
+}
+.input{
+    width: 130px;
+}
+.button{
+    font-size: 20px;
+}
+.buttonyes{
+    font-size: 20px;
+    background-color:rgb(60, 180, 23);
+    color: white;
+    padding: 7px 37px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonno{
+    font-size: 20px;
+    background-color:#f44336;
+    color: white;
+    padding: 7px 26px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonstart{
+    font-size: 20px;
+    background-color:#1c96b4;
+    color: white;
+    padding: 7px 26px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonselect{
+    font-size: 20px;
+    background-color:#f37018;
+    color: white;
+    padding: 7px 26px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonagain{
+    font-size: 20px;
+    background-color:#272926;
+    color: white;
+    padding: 7px 26px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+/* div{
+    border: 1px solid red;
+} */
+table {
+    width: 100%;
+}
+.tablestyle{
+    color:black;
+    border: 1px solid green;
+}
+*{
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    /*border: 1px solid red;*/
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
